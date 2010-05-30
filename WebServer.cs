@@ -113,7 +113,7 @@ namespace BattleGrounds {
       internal const string DEFAULT_CONFIG_FILE = "WebServer.xml";
       internal const string DEFAULT_ERR_PATH = "err/";
       internal const string DEFAULT_ERR_FILE = "WebErr.xml";
-      internal const string DEFAULT_WORKING_DIR = "internal_html/";
+      internal const string DEFAULT_WORKING_DIR = "public_html/";
       internal const string DEFAULT_USER_DIR = "users/";
       internal static readonly string[] DEFAULT_AVATAR_TYPES = new string[] {
          "gif",
