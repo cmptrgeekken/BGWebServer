@@ -1,0 +1,14 @@
+body{
+   background: url('images/3dModelLeft.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position: top left;
+   background-color: 000000;
+   color: FFFFFF;
+}     
+a{font-weight: bold;}
+a:link{color: 0000FF;}
+a:visited{color: FF0000;}
+input,textarea,select{background-color: 0000FF;color:FFFFFF;font-weight:bold;padding-left:3;padding-right:3;}
+table{-moz-opacity: .9;opacity:.9;filter:alpha(opacity=90);}
+td{-moz-opacity: 1;opacity:1;filter:alpha(opacity=100);}

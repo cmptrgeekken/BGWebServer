@@ -1,0 +1,24 @@
+<table align="center" border="0" %LOGGEDINwidth="600"%/LOGGEDIN%LOGGEDOUTwidth="300"%/LOGGEDOUT style="text-align:center;">
+   <tr>
+%LOGGEDIN
+      <td align="center"><b>Logged In As:</b><br><table><tr><td>$USER_AVATAR</td><td>$COOKIE_NICK</td></tr></table></td>
+%ADMIN
+      <td><a href="/addUser.bgw">Add User</a></td>
+%/ADMIN
+      <td><a href="/editUser.bgw">Edit User</a></td>
+%/LOGGEDIN
+%LOGGEDOUT
+      <td><a href="/addUser.bgw">Register</a></td>
+      <td><a href="/logIn.bgw">Log In</a></td>
+%/LOGGEDOUT
+%LOGGEDIN
+      <td><a href="/index.bgw?action=logOut">Log Out</a></td>
+%/LOGGEDIN
+%ADMIN
+      <td><a href="/viewUsers.bgw">View Users</a></td>
+%/ADMIN
+      <td><a href="/index.bgw">Home</a></td>
+      <td><a href="/about">About This Server</a></td>
+   </tr>
+</table>
+<br><br>

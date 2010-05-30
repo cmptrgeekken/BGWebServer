@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<serverconfig>
+  <servername>BGWebServer</servername>
+  <workingdir>public_html/</workingdir>
+  <defaultMIME>text/html</defaultMIME>
+  <defaultfilenames>index.bgw;index.htm;index.html</defaultfilenames>
+  <listenport>8081</listenport>
+  <maxfileuploadsize>25600</maxfileuploadsize>
+  <keepalivetimeout>15</keepalivetimeout>
+  <maxrequests>100</maxrequests>
+  <userdirectory>users/</userdirectory>
+  <bgservers>129.21.61.66;kenb.rh.rit.edu;127.0.0.1;localhost</bgservers>
+  <fullnamepattern>\w\s</fullnamepattern>
+  <minfullnamelength>0</minfullnamelength>
+  <maxfullnamelength>25</maxfullnamelength>
+  <nickpattern>\w</nickpattern>
+  <minnicklength>3</minnicklength>
+  <maxnicklength>15</maxnicklength>
+  <passpattern>%5E%5Cs%5C%5C%5C%2F%5C%3C%5C%3E</passpattern>
+  <minpasslength>8</minpasslength>
+  <maxpasslength>24</maxpasslength>
+  <avatartypes>gif;jpg;ico</avatartypes>
+  <modelfiles>tiny.x;tinyred.x</modelfiles>
+  <modelnames>Green;Red</modelnames>
+  <picsize>100x100</picsize>
+</serverconfig>

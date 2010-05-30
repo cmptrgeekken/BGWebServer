@@ -1,0 +1,19 @@
+<error>
+   <401 msg="Unauthorized">You are not authorized to view this page.</401>
+   <404 msg="$0 Not Found">The requested $0 <b>($1)</b> was not found on this server.</404>
+   <408 msg="Request Timed Out">The current connection to the server has timed out. Please reconnect.</408>
+   <412 msg="Precondition Failed">Uploaded files must be no larger than $0kb.</412>
+   <450 msg="Maximum Requests Exceeded">The maximum number of requests (<b>$0</b>) for the current connection have been exceeded. Please wait at least <b>$1</b> seconds before continuing.</450>
+   <460 msg="Action Not Supported">The form action "<b>$0</b>" is not supported by this server. If you're trying to hack this web server, nice try. But you've failed. Otherwise, please contact the webmaster.</460>
+   <472 msg="Password Incorrect">The password you typed is incorrect. Please correct.</472>
+   <473 msg="Password Required">The password field is required, yet it is empty.</473>
+   <474 msg="Passwords Not Equal">The passwords you have entered do not match.</474>
+   <475 msg="User Already Exists">The User <b>($0)</b> already exists in our database.</475>
+   <476 msg="$0 Improperly Formatted">$0 not properly formatted. $0 cannot contain the following characters/symbols: <b>$1</b></476>
+   <477 msg="$0 Too Short">$0 must be at least <b>$1</b> characters in length.</477>
+   <478 msg="$0 Too Long">$0 cannot be any longer than <b>$1</b> characters in length.</478>
+   <479 msg="Login Failed">The User <b>$0</b> with the given password combination was not found on this server.</479>
+   <480 msg="Already Logged In">You are already logged in on this server.</480>
+   <490 msg="Must Be Logged In">You must be logged in to view this page.</490>
+   <550 msg="Socket Exception">Your connection has caused a socket exception. Please refrain from refreshing constantly on your Opera web browser. Thank you kiindly.</550>
+</error>

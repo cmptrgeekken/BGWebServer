@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Add User</title>
+<link rel="stylesheet" href="BGStyle.css" />
+</head>
+<body onLoad="document.forms[0].elements['fullname'].focus()">
+%INCLUDEFILE<file>menu.bgw</file>%/INCLUDEFILE
+<form method="post" action="index.bgw" enctype="multipart/form-data">
+<input type="hidden" name="action" value="adduser">
+<table align="center">
+   <tr>
+      <td>Full Name: </td><td><input type="text" name="fullname">
+   </tr>
+   <tr>
+      <td>Nickname: </td><td><input type="text" name="nick"></td>
+   </tr>
+   <tr>
+      <td>Password: </td><td><input type="password" name="password"></td>
+   </tr>
+   <tr>
+      <td>Re-Type:</td><td><input type="password" name="passCheck"></td>
+   </tr>
+   <tr>
+      <td>Info:</td><td><textarea name="info">Hello. I am a n00b.</textarea></td>
+   </tr>
+   <tr>
+      <td>Model:</td>
+      <td>$ADD_MODEL
+      </td>
+   </tr>
+   <tr>
+      <td>Avatar:</td><td valign="top"><input type="file" name="avatar"></td>
+   </tr>
+   <tr>
+      <td colspan="2"><b>File Type:</b> <i>#SERVER_AVATAR_TYPES</i> | <b>Max Size:</b> <i>#SERVER_MAX_SIZE</i></td>
+   </tr>
+   <tr>
+      <td colspan="2" align="center"><br><input type="submit" value="Add User"></td>
+   </tr>
+</table>
+</form>
+</body>
+</html>

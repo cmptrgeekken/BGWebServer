@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>An Error Has Occurred</title>
+<link rel="stylesheet" href="/BGStyle.css" />
+</head>
+<body>
+%INCLUDEFILE<file>menu.bgw</file>%/INCLUDEFILE
+<table align="center">
+   <tr>      
+      <td align="center"><h2>$ERRCODE</h2></td>
+   </tr>
+   <tr>
+      <td align="center">$ERRMSG</td>
+   </tr>
+</table>
+</body>
+</html>

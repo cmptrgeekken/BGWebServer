@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>View User</title>
+<link rel="stylesheet" href="BGStyle.css" />
+</head>
+<body>
+%INCLUDEFILE<file>menu.bgw</file>%/INCLUDEFILE
+$ADMIN_USERS
+</body>
+</html>

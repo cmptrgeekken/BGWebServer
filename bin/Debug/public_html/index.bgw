@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>BattleGrounds</title>
+<link rel="stylesheet" href="BGStyle.css" />
+</head>
+<body>
+%INCLUDEFILE<file>menu.bgw</file>%/INCLUDEFILE
+<table align="center">
+   <tr>
+      <td align="center">$FORM_MSG</td>
+   </tr>
+</table>
+</body>
+</html>

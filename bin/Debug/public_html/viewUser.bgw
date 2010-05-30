@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>View User</title>
+<link rel="stylesheet" href="BGStyle.css" />
+</head>
+<body>
+%INCLUDEFILE<file>menu.bgw</file>%/INCLUDEFILE
+<table align="center">
+   <tr>
+      <td colspan="2" align="center">$FORM_MSG</td>
+   </tr>
+$CONTAINS_FULLNAME<tr>
+      <td><b>Full Name:</b></td><td>$FORM_FULLNAME</td>
+   </tr>
+$/CONTAINS_FULLNAME
+   <tr>
+      <td><b>Nickname:</b></td><td>$COOKIE_NICK</td>
+   </tr>
+$CONTAINS_INFO
+   <tr>
+      <td><b>Info:</b></td><td>$FORM_INFO</td>
+   </tr>
+$/CONTAINS_INFO
+</table>
+</body>
+</html>
