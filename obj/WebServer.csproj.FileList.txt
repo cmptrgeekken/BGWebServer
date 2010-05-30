@@ -1,5 +1,0 @@
-bin\Debug\BGWebServer.exe
-bin\Debug\BGWebServer.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\BGWebServer.exe
-obj\Debug\BGWebServer.pdb
